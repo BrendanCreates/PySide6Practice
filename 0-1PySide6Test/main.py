@@ -10,3 +10,4 @@ window.show()
 app.exec()
 
 # In the terminal type python main.py to run and see a blank window
+# (run button works just fine)
