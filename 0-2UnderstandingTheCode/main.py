@@ -6,7 +6,7 @@ from PySide6.QtWidgets import QApplication, QWidget # QApplication and QWidget a
 import sys
 
 # application is like a wrapper that englobes everything in Qt application
-# responsible for runnig application and waiting for things to happen
+# responsible for running application and waiting for things to happen
 app = QApplication(sys.argv)
 
 # widgets or windows are hidden by default so we need to show it
