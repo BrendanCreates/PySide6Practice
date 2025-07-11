@@ -9,10 +9,10 @@ def respond_to_slider(data):
     print(f"Slider moved to : {data}") # This is also a way to add a value and add a space before data print("Slider moved to : ", data) its a way to print multiple values separated by spaces
 
 app = QApplication()
-slider = QSlider(Qt.Horizontal)
+slider = QSlider(Qt.Horizontal) # We can set it to be vertical or horizontal by passing this parameter
 slider.setMinimum(1)
 slider.setMaximum(100)
-slider.setValue(25)
+slider.setValue(25) # Set the initial position of the slider
 
 # The Qt system takes care of passing the data from the signal to the slot
 slider.valueChanged.connect(respond_to_slider)

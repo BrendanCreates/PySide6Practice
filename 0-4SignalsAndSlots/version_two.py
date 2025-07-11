@@ -4,7 +4,7 @@
 from PySide6.QtWidgets import QApplication, QPushButton
 
 # The slot - responds when something happens
-def button_clicked(data):
+def button_clicked(data): # if we dont put a parameter here we decide we wont use the emitted parameter it will work fine this way
     print("You clicked the button didn't you! checked : ", data)
 
 app = QApplication()

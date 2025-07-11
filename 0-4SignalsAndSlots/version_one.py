@@ -14,6 +14,7 @@ button = QPushButton("Press Me")
 # we call the connect method on this to specify the method responds to the signal
 # we know button has a clicked signal because of the documentation for QPushButton (Look at the provided slots for QAbstractButton class)
 # The signal - clicked
+# this line we can refer to as "the connection"
 button.clicked.connect(button_clicked)
 
 button.show()
